@@ -2,6 +2,7 @@ import React from "react";
 
 function MarksSummary({ marks }) {
   const totalStudents = marks.length;
+  
 
   const totalMarks = marks.reduce(
     (total, student) =>
